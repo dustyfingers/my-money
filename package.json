@@ -1,0 +1,31 @@
+{
+  "name": "my-money",
+  "version": "1.0.0",
+  "description": "an expense tracker built to my specificatons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustyfingers/my-money.git"
+  },
+  "author": "Lou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustyfingers/my-money/issues"
+  },
+  "homepage": "https://github.com/dustyfingers/my-money#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "mongoose": "^5.7.5"
+  }
+}
